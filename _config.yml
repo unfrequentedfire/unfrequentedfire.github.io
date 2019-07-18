@@ -1,5 +1,5 @@
 # Basic
-title: 欧家欣
+title: 怕冷的火焰
 subtitle: 学习/笔记
 description: 欢迎来到我的博客~
 url: "https://unfrequentedfire.github.io"
@@ -12,21 +12,19 @@ comment:
 
 # Social
 social:
-    #weibo: 5366874726 
+    weibo: 5253609988
     github: unfrequentedfire
-    # zhihu: panpanleopard
+    zhihu: pa-leng-de-huo-yan-60
     # juejin: xxx
     #jianshu: 2ada30d8d0f7
-    # twitter: 
-    csdn: Loganojx
-    cnblogs: sslogan
+    # twitter:
     mail: 1776555345@qq.com
 
 
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
 baidu:
-    id: xxxx  
+    id: 1f6f3b825bedafdc697f6fa41fe7a730
 
 # Google Analytics
 # 使用博客模板请去掉或者更换 id
