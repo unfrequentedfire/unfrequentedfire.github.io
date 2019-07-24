@@ -410,10 +410,6 @@ img::-moz-selection {
     border-top: 1px solid #DDDDDD;
     font-size: .7em;
     color: #b3b3b3;
-    position: fixed;
-    bottom: 0;
-    right: 60px;
-    width: 70%;
   }
 
   .footer__copyright {
