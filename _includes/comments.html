@@ -1,12 +1,24 @@
 <section class="post-comments">
-  <!--{% elsif site.comment.gitment %}-->
     <div id="gitmentContainer"></div>
     <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
     <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
     <script>
+      _utils.http.post('https://github.com/login/oauth/access_token', {
+        code: code,
+        client_id: client_id,
+        client_secret: client_secret
+      }, '').then(function (data) {
+        _this.accessToken = data.access_token;
+        _this.update();
+      }).catch(function (e) {
+        _this.state.user.isLoggingIn = false;
+        alert(e);
+      });
+    </script>
+    <script>
     var gitment = new Gitment({
         owner: 'unfrequentedfire',
-        repo: 'https://github.com/unfrequentedfire/unfrequentedfire.github.io',
+        repo: 'unfrequentedfire.github.io',
         oauth: {
             client_id: '3898f0c7cc93bb697acf',
             client_secret: '6bba6fcef9d24127725d654a9a125963ed12ac2c',
@@ -14,6 +26,5 @@
     });
     gitment.render('gitmentContainer');
     </script>
-  <!--{% endif %}-->
 
 </section>
