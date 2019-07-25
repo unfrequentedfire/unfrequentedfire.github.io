@@ -1,20 +1,7 @@
 <section class="post-comments">
     <div id="gitmentContainer"></div>
-    <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-    <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-    <script>
-      _utils.http.post('https://github.com/login/oauth/access_token', {
-        code: code,
-        client_id: client_id,
-        client_secret: client_secret
-      }, '').then(function (data) {
-        _this.accessToken = data.access_token;
-        _this.update();
-      }).catch(function (e) {
-        _this.state.user.isLoggingIn = false;
-        alert(e);
-      });
-    </script>
+  <link rel = "stylesheet" href = "https://www.wenjunjiang.win/css/gitment.css" >
+  <script src = "https://www.wenjunjiang.win/js/gitment.js" ></script>
     <script>
     var gitment = new Gitment({
         owner: 'unfrequentedfire',
