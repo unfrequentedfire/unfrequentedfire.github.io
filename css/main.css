@@ -526,7 +526,7 @@ img::-moz-selection {
     max-width: none;
     height: 100%;
     background: url(/images/background-cover.jpg) top left no-repeat #666666;
-    background-size: cover; }
+    background-size: contain; }
 
   .panel-cover--collapsed {
     width: 22%;
@@ -729,9 +729,10 @@ img::-moz-selection {
     display: inline-block;
     margin-right: 0px;
     padding: 5px 5px 5px 5px;
-    font-size: .6em;
+    /*font-size: .6em;*/
     text-shadow: none;
     color: #BF1827;
+    font-size: 20px;
   }
   .navigation__item {
     display: inline-block;
