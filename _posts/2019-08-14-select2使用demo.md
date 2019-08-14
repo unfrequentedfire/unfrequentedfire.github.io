@@ -11,7 +11,7 @@ tag: select2
 
 ### 2 页面
 
-![1565768393906](C:\Users\JY\AppData\Roaming\Typora\typora-user-images\1565768393906.png)
+![](https://raw.githubusercontent.com/unfrequentedfire/myblog_image/master/jekyll/1565768393906.png)
 
 ### 3 js代码
 
